@@ -1,0 +1,46 @@
+//Använd dessa för att snabbt skapa issues i vs Code mha GitHub Pull Requests and Issue.
+
+AIO Projects:
+Du ska göra dessa projekt på sidan (https://learn.adafruit.com/series/adafruit-io-basics):
+
+//TODO #1 1.Digital Input ESP32 OBS: använd "Status indicator" på din dashboard isf som används i guiden.
+//TODO #2 2.Digital Output ESP32
+//TODO #3 3.Analog Output (använd en ESP8266, och läs Adafruit IO Basics: ESP8266 + Arduino guiden)
+//TODO #4 4.Color (använd en ESP8266)
+//TODO #5 5.Temperature & Humidity
+
+Arduino-projektet:
+
+E:
+- //TODO 1.Send fuel gauge, battery and temperature data to AIO.
+- //TODO 2.Deep sleep fixed time 10 minutes.
+- //TODO 3.Avbryt om man inte får kontakt med WiFi på 10 försök, sov 1 minut.
+- //TODO 4.Blinka LED på olika sätt vid a) försöker koppla upp sig b) uppkopplad. Gör en egen funktion blinkLED(times, speed).
+- //TODO 5.Versionskontroll via Github. Jag fixar ett repo när du har ett github-konto.
+
+D:
+- //TODO 6.Löda OLED
+- //TODO 7.OLED med auto-off. Visa namn och datan i textsize 2 på två "frames" i 1,5 sekunder vid Reset-tryck.
+- //TODO 8.Ta  hänsyn till om fuelgauge.begin() inte funkar, försök några gånger med kort sleep emellan. Meddela på OLED om det inte lyckas. (Se nedan)
+- //TODO 9.Variabel sleep time m.a.p. batteriprocent. 
+> - Under 3%: 20 minuter. 
+> - 3-6 %: 15 minuter. 
+>  - Annars 10 minuter.
+- //TODO 10.Dela dina feeds på AIO med mig. AIO användarnamn: **axelmagnus**
+
+C:
+- //TODO 11.Löda INA219
+- //TODO 12.Löda laddare
+- //TODO 13.INA219 laddningsmätare, medelvärde på 1000 samples, skicka upp till AIO.
+- //TODO 14.OLED med typsnitt. Välj själv vilket.
+- //TODO 15.External Wake up med knapp. Visa data på OLED utan att skicka
+- //TODO 16.Skicka data med konstant interval med sleep, trots ev. knapptryck. Se info på Classroom.
+
+B:
+- //TODO 17.Om spänningen är väldigt låg, (<3.4 V), ska den inte försöka sätta i gång WiFi, utan gå tillbaka i sleep och bara ladda batterier.
+- //TODO 18.Ta hänsyn till att om någon av dina I2C komponenter inte lyckas starta (.begin() ), försök några gånger med kort sleep, och sedan skicka RTC-lagrade värden i stället.
+- //TODO 19.Längre sleep time mellan 18-06, hämta tid från AIO. Se info på Classroom.
+
+A:
+- //TODO 20.Skicka meddelande om batteriet understiger viss nivå (<3.4 V). Se [IFTTT](https://learn.adafruit.com/using-ifttt-with-adafruit-io/ifttt-to-adafruit-io-setup).
+- //TODO 21.Menysystem för filamentvåg. Helt separat kodfil. Se [Buttons](https://learn.adafruit.com/arduin-o-phone-arduino-powered-diy-cellphone/arduin-o-phone-sketch)
