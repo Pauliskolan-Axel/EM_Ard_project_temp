@@ -8,7 +8,7 @@ E:
 - [ ] Deep sleep fixed time 10 minutes.
 - [ ] Avbryt om man inte får kontakt med WiFi på 10 försök, sov 1 minut.
 - [ ] Blinka LED på olika sätt vid a) försöker koppla upp sig b) uppkopplad. Gör en egen funktion blinkLED(times, speed).
-- [ ] Versionskontroll via Github. Jag fixar ett repo när du har ett github-konto.
+- [ ] Versionskontroll via Github.
 
 D:
 - [ ] Löda OLED
@@ -23,7 +23,7 @@ D:
 C:
 - [ ] Löda INA219
 - [ ] Löda laddare
-- [ ] INA219 laddningsmätare, medelvärde på 1000 samples, skicka upp till AIO.
+- [ ] INA219 laddningsmätare, medelvärde på 500 samples, skicka upp till AIO.
 - [ ] OLED med typsnitt. Välj själv vilket.
 - [ ] External Wake up med knapp. Visa data på OLED utan att skicka
 - [ ] Skicka data med konstant interval med sleep, trots ev. knapptryck. Se info på Classroom.
