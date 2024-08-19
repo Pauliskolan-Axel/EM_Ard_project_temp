@@ -35,4 +35,4 @@ B:
 
 A:
 - [ ] Skicka meddelande om batteriet understiger viss nivå (<3.4 V). Se [IFTTT](https://learn.adafruit.com/using-ifttt-with-adafruit-io/ifttt-to-adafruit-io-setup).
-- [ ] Menysystem för filamentvåg. Helt separat kodfil. Se [Buttons](https://learn.adafruit.com/arduin-o-phone-arduino-powered-diy-cellphone/arduin-o-phone-sketch)
+- [ ] Rullande text.
