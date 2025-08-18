@@ -11,8 +11,7 @@ E:
 - [ ] Versionskontroll via Github.
 
 D:
-- [ ] Löda OLED
-- [ ] OLED med auto-off. Visa namn och datan i textsize 2 på två "frames" i 1,5 sekunder vid Reset-tryck.
+- [ ] TFT med auto-off. Visa namn och datan i textsize 2 på två "frames" i 1,5 sekunder vid Reset-tryck.
 - [ ] Ta  hänsyn till om fuelgauge.begin() inte funkar, försök några gånger med kort sleep emellan. Meddela på OLED om det inte lyckas. (Se nedan)
 - [ ] Variabel sleep time m.a.p. batteriprocent. 
 > - Under 3%: 20 minuter. 
@@ -21,10 +20,8 @@ D:
 - [ ] Dela dina feeds på AIO med mig. AIO användarnamn: **axelmagnus**
 
 C:
-- [ ] Löda INA219
-- [ ] Löda laddare
 - [ ] INA219 laddningsmätare, medelvärde på 500 samples, skicka upp till AIO.
-- [ ] OLED med typsnitt. Välj själv vilket.
+- [ ] TFT med typsnitt. Välj själv vilket.
 - [ ] External Wake up med knapp. Visa data på OLED utan att skicka
 - [ ] Skicka data med konstant interval med sleep, trots ev. knapptryck. Se info på Classroom.
 
@@ -35,4 +32,4 @@ B:
 
 A:
 - [ ] Skicka meddelande om batteriet understiger viss nivå (<3.4 V). Se [IFTTT](https://learn.adafruit.com/using-ifttt-with-adafruit-io/ifttt-to-adafruit-io-setup).
-- [ ] Rullande text.
+- [ ] Heliostat, rikta panel mot solen.
